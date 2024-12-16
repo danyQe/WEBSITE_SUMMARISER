@@ -26,11 +26,12 @@ Follow these steps to set up and run the project:
 
 3. Activate the virtual environment:
    - **Windows**:
-     ```powershell
-     venv\Scripts\Activate
+     ```**powershell**
+     venv\Scripts\Activate.ps1
      ```
-     ```cmd
-      venv\Scripts\activate
+    (or)
+     ```**cmd**
+      venv\Scripts\activate.bat
      ```
      
    - **Linux/Mac**:
