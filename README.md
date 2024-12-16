@@ -26,9 +26,13 @@ Follow these steps to set up and run the project:
 
 3. Activate the virtual environment:
    - **Windows**:
-     ```bash
-     venv\Scripts\activate
+     ```powershell
+     venv\Scripts\Activate
      ```
+     ```cmd
+      venv\Scripts\activate
+     ```
+     
    - **Linux/Mac**:
      ```bash
      source venv/bin/activate
@@ -36,7 +40,7 @@ Follow these steps to set up and run the project:
 
 4. Upgrade `pip` and install dependencies:
    ```bash
-   pip install --upgrade pip
+   python.exe -m pip install --upgrade pip
    ```
    
 5. Install required dependencies:
