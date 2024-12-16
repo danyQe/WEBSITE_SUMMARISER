@@ -43,8 +43,12 @@ Follow these steps to set up and run the project:
    ```bash
    pip install -r requirements.txt
    ```
-   
-6. Run the program:
+6.Get the API key[gemini api key:](https://ai.google.dev/gemini-api/docs/api-key) 
+  save it in .env file
+  ```
+     GEMINI_API_KEY="YOUR API KEY"
+  ```
+7. Run the program:
    ```bash
    python main.py
    ```
